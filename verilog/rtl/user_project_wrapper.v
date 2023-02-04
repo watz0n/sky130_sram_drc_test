@@ -82,6 +82,25 @@ module user_project_wrapper #(
 /* User project is instantiated  here   */
 /*--------------------------------------*/
 
+
+sky130_sram_2kbyte_1rw1r_32x512_8 sram0(
+// Port 0: RW
+    .clk0(user_clock2),
+    .csb0(la_data_out[0]),
+    .web0(la_data_out[1]),
+    .wmask0(la_data_out[2+:4]),
+    .addr0(la_data_out[6+:9]),
+    .din0(la_data_out[16+:32]),
+    .dout0(io_in[0+:31]),
+// Port 1: R
+    .clk1(user_clock2),
+    .csb1(la_data_out[0]),
+    .addr1(la_data_out[6+:9]),
+    .dout1()
+);
+
+
+/*
 user_proj_example mprj (
 `ifdef USE_POWER_PINS
 	.vccd1(vccd1),	// User area 1 1.8V power
@@ -117,6 +136,8 @@ user_proj_example mprj (
     // IRQ
     .irq(user_irq)
 );
+
+*/
 
 endmodule	// user_project_wrapper
 
