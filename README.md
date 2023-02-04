@@ -51,7 +51,7 @@
    
 * [1]. OpenLane Tutorial
     * [Designing a chip with an OpenRAM (sky130)](https://openlane.readthedocs.io/en/latest/tutorials/openram.html)
-* [2]. Sky130 SRAM Macro DRC Walkaround discussion
+* [2]. Sky130 SRAM Macro DRC work-around discussion
     * [efabless/mpw_precheck: Precheck crash with SRAM DRC](https://github.com/efabless/mpw_precheck/issues/180)
 
 ------
