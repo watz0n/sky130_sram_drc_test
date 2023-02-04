@@ -26,13 +26,13 @@
 1. RTL-to-GDS Flow
     
     * [1] MPW OpenLane Flow Logs<br />
-    ![rtl-to-gds-log](docs\images\sky130sram_openlane-flow_230204.png)
+    ![rtl-to-gds-log](docs/images/sky130sram_openlane-flow_230204.png)
     * [2] Post-Routing Layout in OpenRoad-GUI<br />
-    ![rtl-to-gds-klgds](docs\images\sky130sram_or-gui_230204.png)
+    ![rtl-to-gds-klgds](docs/images/sky130sram_or-gui_230204.png)
     * [3] Sign-Off Layout in Klayout<br />
-    ![rtl-to-gds-klgds](docs\images\sky130sram_klayout-gds_230204.png)
+    ![rtl-to-gds-klgds](docs/images/sky130sram_klayout-gds_230204.png)
     * [4] Pass MPW-Precheck, include Magic/Klayout DRC-Checks<br />
-    ![rtl-to-gds-prechk](docs\images\sky130sram_mpw-precheck_230204.png)
+    ![rtl-to-gds-prechk](docs/images/sky130sram_mpw-precheck_230204.png)
 
 ------
 ### Work-Around
